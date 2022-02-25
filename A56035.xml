@@ -1,0 +1,412 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Proposals for printing Athenæ Oxonienses, and Fasti Oxonienses Both written by the famous antiquary, and historiographer, Anthony à Wood, M.A. author of the History, and antiquities of the University of Oxford.</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1691</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 37 KB of XML-encoded text transcribed from 3 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-04">2011-04 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A56035</idno>
+            <idno type="STC">Wing P3734</idno>
+            <idno type="STC">ESTC R221540</idno>
+            <idno type="EEBO-CITATION">99832838</idno>
+            <idno type="PROQUEST">99832838</idno>
+            <idno type="VID">37313</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A56035)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 37313)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 2151:6)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Proposals for printing Athenæ Oxonienses, and Fasti Oxonienses Both written by the famous antiquary, and historiographer, Anthony à Wood, M.A. author of the History, and antiquities of the University of Oxford.</title>
+               </titleStmt>
+               <extent>[4] p.   </extent>
+               <publicationStmt>
+                  <publisher>s.n.,</publisher>
+                  <pubPlace>[London :</pubPlace>
+                  <date>1690]</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Caption title.</note>
+                  <note>Unsigned.</note>
+                  <note>Torn with slight loss of print.</note>
+                  <note>Reproduction of the original in the Bodleian Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Wood, Anthony à, 1632-1695 --  Early works to 1800.</term>
+               <term>Printing --  England --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2009-01</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2009-03</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2009-04</date>
+            <label>Lauren Proux</label>Sampled and proofread</change>
+         <change>
+            <date>2009-04</date>
+            <label>Lauren Proux</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2009-09</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <body>
+         <div type="subscription_appeal">
+            <pb facs="tcp:37313:1" rendition="simple:additions"/>
+            <head>PROPOSALS For PRINTING <hi>Athenae Oxonienſes,</hi> and <hi>Faſti Oxonienſes.</hi> Both Written by the famous Antiquary, and Hiſtoriographer, <hi>Anthony a Wood,</hi> M. A. Author of the Hiſtory, and Antiquities of the Univerſity of <hi>Oxford.</hi>
+            </head>
+            <div type="proposal">
+               <p>THE Book Entituled <hi>Athenae Oxonienſes,</hi> will contain an exact Hiſtory of all Writers that have been Educated in the Univerſity of <hi>Oxford</hi> in all Profeſſions: and of all Archbiſhops, and Biſhops, whether of this, or any other Kingdoms, that have been Members of the ſaid Univerſity. The Birth, Fortune, Preferment, and Death of all thoſe Authors and Prelates, the great, Accidents of their Lives, and more particularly the fate of their Writings, and the Character of their Works are here given with great exactneſs and fidelity. This Work moreover gives not only an account of the Authors of <hi>Oxford;</hi> but of ſuch of the Writers of the other famous Univerſity of <hi>Cambridge,</hi> as were entred at <hi>Oxford,</hi> or Studied in it, or Aſſiſted, Oppoſed, or Anſwered any Author of that Univerſity. So that either by theſe means, or by way of digreſſion; it contains an exact Hiſtory of Learning, and of the Learned Men in <hi>England;</hi> and fully Corrects, Continues, and Supplie<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> 
+                  <hi>Leland, Bale, Pits,</hi> and <hi>Godwin,</hi> on that Subject, and deſerves particular encouragement, as being the firſt Work of this Nature, that ever was Printed in <hi>Engliſh.</hi>
+               </p>
+               <p>The Book Entituled the <hi>Oxonian Faſt<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>,</hi> or <hi>Annals,</hi> contains an account of all the Remarkable, and Eminent Perſons of <hi>Oxford, (i. e.)</hi> Chancellors, Commiſſioners, Vice Chancellors, and Proctors of the Univerſities: The names of all Dignitaries, as Deans, Arch Deacons, Chancellors, Chanters, Heads of Colleges and Halls; Abbots, Priors, Monks, Friars, and all Doctors, that have been Incorporated into the Univerſity of <hi>Oxford:</hi> or have Sojourned there.</p>
+               <p>The whole Work will conſiſt of two Volumes, the firſt whereof will begin in the year 1500. and will end in 1640. The other will begin in 1641. and will end in the latter end of the year 1690.</p>
+               <p>The Work will be diſpoſed according to order of time, and will be made more uſeful by many large and full Alphabetical Indexes at the end of each Volume.</p>
+               <p>A large Introduction will be prefix'd before the Firſt Volume, giving an account of the Hiſtory of Learn<g ref="char:EOLhyphen"/>ing in <hi>England,</hi> before the firſt date of this Work in 1500.</p>
+               <p>And an Appendix will be added, containing an exact account of the Births, Preferments, and Writings, of the moſt conſiderable Writers now living in <hi>England.</hi>
+               </p>
+               <p>In the mean time the Undertaker, <hi>Thomas Bennet,</hi> doth here exhibit a Specimen of the Paper and Print, in the Lives of two Authors, hereafter annexed, and maketh his Propoſals as followeth,</p>
+               <list>
+                  <item>1. That the Book ſhall be Printed on the ſame Paper, and Character with the Specimen annexed (only ſome few of a larger Paper for Gentlemen more Curious.)</item>
+                  <item>2. That this Book ſhall conſiſt of two Volumes in Folio, each above one hundred Sheets in double Columns; and that every Subſcriber for the ordinary Paper ſhall pay for both 20 <abbr>
+                        <hi>s.</hi>
+                     </abbr> in Sheets, <hi>i. e.</hi> five down in hand at the time of ſubſcription, ten at the delivery of the firſt Volume, and 5 <abbr>
+                        <hi>s.</hi>
+                     </abbr> at the delivery of the laſt: and every Subſcriber for the large Paper 30 <abbr>
+                        <hi>s.</hi>
+                     </abbr> at proportionable payments as before.</item>
+                  <item>3. That the price to any other than a Subſcriber ſhall be one pound five ſhillings for the ordinary Paper in Sheets, and forty ſhillings for the large; and there are ſo few Printed that care will be taken none ſhall be underſold.</item>
+                  <item>4. That the Book is already in the Preſs, and the firſt Volume ſhall be delivered at <hi>Eaſter</hi> Term next, and the ſecond at <hi>Trinity.</hi>
+                  </item>
+                  <item>5. All Gentlemen who ſubſcribe will have their Names, Titles, and places of Abode, Printed in a Sheet annexed to the Book.</item>
+               </list>
+               <p>The Propoſals and Specimens are to be had of the Undertaker <hi>Thomas Bennet,</hi> at the <hi>Half Moon</hi> in S. <hi>Paul</hi>'s Church-Yard, and of theſe Bookſellers following, who alſo take Sub<g ref="char:EOLhyphen"/>ſcriptions, give Receipts, and deliver Books according to the Propoſals.</p>
+               <list>
+                  <item>MR. <hi>Gilliflower</hi> in <hi>Weſtm. Hall.</hi>
+                  </item>
+                  <item>Mr. <hi>Fox</hi> in <hi>Weſtm. Hall.</hi>
+                  </item>
+                  <item>Mr. <hi>Patridge</hi> at <hi>Charing-Croſs.</hi>
+                  </item>
+                  <item>Mr. <hi>Nott</hi> in the <hi>Pall Mall.</hi>
+                  </item>
+                  <item>Mr. <hi>Bentley</hi> in <hi>Covent Garden.</hi>
+                  </item>
+                  <item>Mr. <hi>Crook</hi> without <hi>Temple Bar.</hi>
+                  </item>
+                  <item>Mr. <hi>Brown</hi> without <hi>Temple Bar.</hi>
+                  </item>
+                  <item>Mr. <hi>Baſſet</hi> in <hi>Fleetſtreet.</hi>
+                  </item>
+                  <item>Mr. <hi>Wilkinſon</hi> in <hi>Fleetſtreet.</hi>
+                  </item>
+                  <item>Mr. <hi>Rogers</hi> in <hi>Fleetſtreet.</hi>
+                  </item>
+                  <item>Mr. <hi>Freeman</hi> in <hi>Fleetſtreet.</hi>
+                  </item>
+                  <item>Mr. <hi>Wotton</hi> in <hi>Fleetſtreet.</hi>
+                  </item>
+                  <item>Mr. <hi>Swalle</hi> in S. <hi>Paul</hi>'s Chur. Yard.</item>
+                  <item>Mr. <hi>Clavel</hi> in S. <hi>Paul</hi>'s Chur. Yard.</item>
+                  <item>Mr. <hi>Kettleby</hi> in S. <hi>Paul</hi>'s Chur. Yard.</item>
+                  <item>Mr. <hi>Watts</hi> in S. <hi>Paul</hi>'s Chur. Yard.</item>
+                  <item>Mr. <hi>Mortlock</hi> in S. <hi>Paul</hi>'s Chur. Yard.</item>
+                  <item>Mr. <hi>Smith</hi> in S. <hi>Paul</hi>'s Chur. Yard.</item>
+                  <item>Mr. <hi>Chiſwell</hi> in S. <hi>Paul</hi>'s Chur. Yard.</item>
+                  <item>Mr. <hi>Adamſon</hi> in S. <hi>Paul</hi>'s Chur. Yard.</item>
+                  <item>Mr. <hi>Knapton</hi> in S. <hi>Paul</hi>'s Chur. Yard.</item>
+                  <item>Mr. <hi>Anſon</hi> in S. <hi>Paul</hi>'s Chur. Yard.</item>
+                  <item>Mr. <hi>Bonwick</hi> in S. <hi>Paul</hi>'s Chur. Yard.</item>
+                  <item>Mr. <hi>Robinſon</hi> in S. <hi>Paul</hi>'s Chur. Yard.</item>
+                  <item>Mr. <hi>Saunders</hi> in the <hi>Exchange.</hi>
+                  </item>
+                  <item>Mr. <hi>Churchill</hi> in <hi>Ave-mary Lane.</hi>
+                  </item>
+                  <item>Mr. <hi>Everingham on Ludgateſtreet.</hi>
+                  </item>
+                  <item>Mr. <hi>Lawrence</hi> in the <hi>Poultrey.</hi>
+                  </item>
+                  <item>Mr. <hi>Aylmer</hi> at <hi>Cornhill.</hi>
+                  </item>
+                  <item>Mr. <hi>Horn.</hi> at <hi>Cornhill.</hi>
+                  </item>
+                  <item>Mr. <hi>Crowch</hi> at <hi>Cornhill.</hi>
+                  </item>
+                  <item>Mr. <hi>Hindmarſh</hi> at <hi>Cornhill.</hi>
+                  </item>
+                  <item>Mr. <hi>Richard Parker</hi> at <hi>Cornhill.</hi>
+                  </item>
+                  <item>Mr. <hi>Powel</hi> at <hi>Lincolns Inn.</hi>
+                  </item>
+                  <item>Mr. <hi>Sare</hi> at <hi>Grays Inn</hi> gate.</item>
+                  <item>Mr. <hi>Littlebury</hi> in <hi>Little Brittain.</hi>
+                  </item>
+                  <item>Mr. <hi>Sawbridg</hi> in <hi>Little Brittain.</hi>
+                  </item>
+               </list>
+               <p>And by theſe Bookſellers in the Country.</p>
+               <list>
+                  <item>Mr. <hi>Geo. Weſt</hi> in <hi>Oxford.</hi>
+                  </item>
+                  <item>Mr. <hi>John Croſley</hi> in <hi>Oxford.</hi>
+                  </item>
+                  <item>Mr. <hi>Hen. Clement</hi> in <hi>Oxford.</hi>
+                  </item>
+                  <item>Mr. <hi>John Howel</hi> in <hi>Oxford.</hi>
+                  </item>
+                  <item>Mr. <hi>Hen. Dickenſon</hi> in <hi>Cambridg.</hi>
+                  </item>
+                  <item>Mr. <hi>Will. Graves</hi> in <hi>Cambridg.</hi>
+                  </item>
+                  <item>Mr. <hi>Rich. Green</hi> in <hi>Cambridg.</hi>
+                  </item>
+                  <item>Mr. <hi>Yeo</hi> in <hi>Exeter.</hi>
+                  </item>
+                  <item>Mr. <hi>May</hi> in <hi>Exeter.</hi>
+                  </item>
+                  <item>Mr. <hi>Manlin</hi> in <hi>York.</hi>
+                  </item>
+                  <item>Mr. <hi>Shelmerdine</hi> in <hi>Mancheſter.</hi>
+                  </item>
+                  <item>Mr. <hi>Green</hi> in <hi>Lancaſter.</hi>
+                  </item>
+                  <item>Mr. <hi>Churchill</hi> in <hi>Dorcheſter.</hi>
+                  </item>
+                  <item>Mr. <hi>Lawſon</hi> in <hi>Lincoln.</hi>
+                  </item>
+                  <item>Mr. <hi>Page</hi> in <hi>Cheſter.</hi>
+                  </item>
+                  <item>Mr. <hi>Laſley</hi> in <hi>Hereford.</hi>
+                  </item>
+                  <item>Mr. <hi>Robinſon</hi> in <hi>Ludlow.</hi>
+                  </item>
+                  <item>Mr. <hi>Gravett</hi> in <hi>Briſtol.</hi>
+                  </item>
+                  <item>Mr. <hi>Wall</hi> in <hi>Briſtol.</hi>
+                  </item>
+                  <item>Mr. <hi>Evans</hi> in <hi>Worceſter.</hi>
+                  </item>
+                  <item>Mr. <hi>Palmer</hi> in <hi>Glouceſter.</hi>
+                  </item>
+                  <item>Mr. <hi>Rogers</hi> in <hi>Shrewsbury.</hi>
+                  </item>
+                  <item>Mr. <hi>Pickering</hi> in <hi>Warrington.</hi>
+                  </item>
+                  <item>Mr. <hi>Hows</hi> in <hi>Nottingham.</hi>
+                  </item>
+                  <item>Mr. <hi>Ward</hi> in <hi>Leiceſter.</hi>
+                  </item>
+                  <item>Mr. <hi>Fowler</hi> in <hi>Northampton.</hi>
+                  </item>
+                  <item>Mr. <hi>Smith</hi> in <hi>Daventry.</hi>
+                  </item>
+                  <item>Mr. <hi>Powel</hi> in <hi>Southampton.</hi>
+                  </item>
+                  <item>Mr. <hi>Hartford</hi> in <hi>Portſmouth.</hi>
+                  </item>
+                  <item>Mr. <hi>Smith</hi> at <hi>Stratford</hi> upon <hi>Avon.</hi>
+                  </item>
+                  <item>Mr. <hi>Giles</hi> in <hi>Norwich.</hi>
+                  </item>
+                  <item>Mr. <hi>Roſe</hi> in <hi>Norwich.</hi>
+                  </item>
+                  <item>Mr. <hi>Oliver</hi> in <hi>Norwich.</hi>
+                  </item>
+                  <item>Mr. <hi>Redmain</hi> in <hi>Yarmouth.</hi>
+                  </item>
+                  <item>Mr. <hi>Randal</hi> in <hi>Newcaſtle.</hi>
+                  </item>
+                  <item>Mr. <hi>Johnſon</hi> in <hi>Litchfield.</hi>
+                  </item>
+                  <item>Mr. <hi>Hunt</hi> in <hi>Coventry.</hi>
+                  </item>
+                  <item>Mr. <hi>Nisbet</hi> in <hi>Derby.</hi>
+                  </item>
+                  <item>Mr. <hi>Raw</hi> in <hi>Bath.</hi>
+                  </item>
+                  <item>Mr. <hi>Courtney</hi> in <hi>Salisbury.</hi>
+                  </item>
+                  <item>Mr. <hi>Warden</hi> in <hi>Durham.</hi>
+                  </item>
+                  <item>Mr. <hi>Weeks</hi> in <hi>Plimouth.</hi>
+                  </item>
+               </list>
+            </div>
+            <div type="sample">
+               <div type="biographical_entry">
+                  <pb facs="tcp:37313:2"/>
+                  <p>HENRY SAVILE, Second Son of <hi>Henry Savile</hi> (by <hi>Elizabeth,</hi> his Wife, Daughter of <hi>Robert Ramſ<g ref="char:EOLhyphen"/>den,</hi> Gent.) Second Son of <hi>John Savile</hi> of <hi>New-hall</hi> in <hi>Yorkſhire,</hi> Eſquire, was born at <hi>Bradley,</hi> alias <hi>Over-Bradley,</hi> near to <hi>Halifax</hi> in the ſame County, on the laſt day of <hi>Nov.</hi> 1549. (3. <hi>Ed.</hi> 6.) He was entred a Student in this Univerſity in the beginning of the year 1561. and in the beginning of <hi>Lent</hi> 1565. was ad<g ref="char:EOLhyphen"/>mitted Bachelor of Arts, and forthwith <hi>determined.</hi> Not long after he was elected Probationer-Fellow of <hi>Merton</hi> College; at a time, when Learning in that place, as indeed then in the whole Univerſity, was at a very low ebb. In 1570. he proceeded in his Faculty, and Read his Ordinaries on the <hi>Almageſt</hi> of <hi>Ptolemy:</hi> So that growing famous for his Learning, eſpecially for the <hi>Greek</hi> Tongue, and Mathematicks, (in which laſt he voluntarily read a Lecture for ſome time in <hi>Oxford;</hi>) He was elected Proctor of the Uni<g ref="char:EOLhyphen"/>verſity for two years together, with <hi>John Under<gap reason="illegible" resp="#UOM" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>ill</hi> of <hi>New</hi> College, afterwards Rector of that of <hi>Lincoln,</hi> and Biſhop of <hi>Oxon.</hi> And it is to be remarked, that then and long after, till the beginning of the <hi>Caroline Cycla,</hi> the Choice of Proctors was carried on through<g ref="char:EOLhyphen"/>out the whole Univerſity with ſo great and ſo ſolli<g ref="char:EOLhyphen"/>citous a Canvaſs that he muſt be a Man of no ordinary eſteem, who at that time could twice together obtain ſo honorable an Office. In 1578. he travelled into <hi>France</hi> and other Countries, and thereupon improving himſelf in Learning, Languages, and the knowledg of the World and Men, became, and was eſteemed, a moſt accompliſhed perſon at his return. About that time he was appointed Tutor to Queen <hi>Eliza<g ref="char:EOLhyphen"/>beth</hi> for the <hi>Greek</hi> Tongue, who ſo much approved and favoured him, that he was not only the ſooner made Warden of <hi>Merton</hi> College, (though a noted perſon <hi>Edmund Bunney</hi> was elected with him, and preſented to the Archbiſhop of <hi>Canterbury</hi> for Con<g ref="char:EOLhyphen"/>firmation) but alſo by her favour was made Provoſt of <hi>Eaton</hi> College in the year 1596. upon the Pro<g ref="char:EOLhyphen"/>motion of Dr. <hi>William Day</hi> to the See of <hi>Win<g ref="char:EOLhyphen"/>ton.</hi> While he governed the former College, (which was thirty ſix years) <hi>Summa curd</hi> (as it is<note n="(a)" place="bottom">Reg. 2. Act. Societ. Coll. <hi>Mert.</hi> p. 271.</note> ſaid) <hi>&amp; diligentid fere pluſquam humand perdius &amp; pern<gap reason="illegible" resp="#UOM" extent="2 letters">
+                           <desc>••</desc>
+                        </gap>,</hi> he made it his chief endeavours (though troubled with the cares that attend Marriage) to im<g ref="char:EOLhyphen"/>prove it with Riches and Learning. For the effecting of the laſt, he always made choice of the beſt Scho<g ref="char:EOLhyphen"/>lars at the uſual Election of Fellows. In the firſt that he made after he was Warden, which conſiſted but of four perſons, <hi>Henry Cuffe</hi> and <hi>Francis Maſon</hi> were Elected, both noted for their Learning, though the firſt was unfortunate. In the laſt, about three years before his death, which conſiſted of ſix, four of them, (whereof two were Biſhops) namely Doctor <hi>Reynolds</hi> of <hi>Norwich,</hi> Doctor <hi>Earl</hi> of <hi>Salisbury, John Doughty,</hi> and <hi>Alexander Fiſher,</hi> were men of an un<g ref="char:EOLhyphen"/>queſtionable Reputation for Learning. Our Author, <hi>Savile,</hi> alſo took as much care as he could to place noted Men at <hi>Eaton,</hi> among whom <hi>Thomas Allen, John Hales, Thomas Savile,</hi> &amp;c. were choſen Fellows, and alſo one <hi>Jonas Mountague</hi> (all of <hi>Merton</hi> College) who helped him in the Edition of S. <hi>Chry<g ref="char:EOLhyphen"/>ſoſtom,</hi> was appointed School-Maſter. When King <hi>James</hi> I. came to the Crown, he had a great reſpect for Mr <hi>Savile</hi> and his Learning, and, as I have heard from our Antients, he would willingly have ad<g ref="char:EOLhyphen"/>vanced him to a higher place, either in Church or State, but he refuſed it, and only accepted of the honour of Knighthood from him at <hi>Windſor,</hi> 21. <hi>Sept.</hi> 1604. Much about which time <hi>Henry</hi> his only Son and Heir dying, and no hopes left of propagating his Name, and of ſetling a Family, he beſtowed much of his Wealth in publiſhing Books, and Founding <hi>two Lectures</hi> in this Univerſity, of which I ſhould be now more particular, if I had not in another place oppor<g ref="char:EOLhyphen"/>tunity of treating of them. Many are the <hi>Encomiums</hi> given of him by divers Authors, which, if I ſhould repeat, may make a Volume. In one<note n="(b)" place="bottom">Ibid.</note> place he is ſtiled <hi>Muſarum Patronus, Mecaenas Literarum, Fortunarumque Mert<gap reason="illegible" resp="#UOM" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>neuſium verè pater, &amp;c.</hi> In another<note n="(c)" place="bottom">
+                        <hi>John Pi<gap reason="illegible" resp="#UOM" extent="1 letter">
+                              <desc>•</desc>
+                           </gap>ſeus</hi> in lib. <hi>De illuſtrib. Angl. Scriptorib. aet.</hi> 1<gap reason="illegible" resp="#UOM" extent="2 letters">
+                           <desc>••</desc>
+                        </gap> nu. 563. p. 471.</note> he is charactarized by a Zealous <hi>Roman</hi> Catholick, who very ſeldom or never ſpeaks well of a Proteſtant, to be <hi>Vir Graecè &amp; Latine perinde doctus, vene<g ref="char:EOLhyphen"/>randae Antiquitatis (ut videtur) tam exquiſitus inda<g ref="char:EOLhyphen"/>gator, tam ingenuus &amp; liberalis editor.</hi> To paſs by the noble and generous Characters given of him by <hi>Iſaac</hi>
+                     <note n="(d)" place="bottom">
+                        <hi>In Append. ad Epiſt.</hi> Vide etiam in<gap reason="illegible" resp="#UOM" extent="2 letters">
+                           <desc>••</desc>
+                        </gap> Epiſtolas, Ep. <hi>100.</hi> Script. ad H<gap reason="illegible" resp="#UOM" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>n. Savile.</note> 
+                     <hi>Caſaubon, John</hi>
+                     <note n="(e)" place="bottom">In notis in Homel in Gen. int. Opera S. Chryſoſt.</note> 
+                     <hi>Boyſius, Joſias</hi>
+                     <note n="(f)" place="bottom">In notis ad Corn. Ta<gap reason="illegible" resp="#UOM" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>.</note> 
+                     <hi>Mer<g ref="char:EOLhyphen"/>cerus, Marc.</hi>
+                     <note n="(g)" place="bottom">In Praef. ad Gaudentii introduct. harmonic.</note> 
+                     <hi>Meibomius, Joſ.</hi>
+                     <note n="(h)" place="bottom">In lib. <hi>3.</hi> Epiſtatarum, Epiſt, <hi>232.</hi> Script. ad Rich. Thompſonum.</note> 
+                     <hi>Scaliger,</hi> and many others, I ſhall proceed to make mention of thoſe things that he hath written and publiſhed, which are theſe following.</p>
+                  <list>
+                     <item>
+                        <p>Learned Notes on, and a Tranſlation into <hi>Engliſh</hi> of <hi>Corn. Tacitus</hi> his
+<list>
+                              <item>(1.) End of <hi>Nero, &amp;c.</hi> beginning of <hi>Galba.</hi>
+                              </item>
+                              <item>(2.) Four Books of Hiſtories.</item>
+                              <item>(3.) Life of <hi>Agricola. Lond.</hi> 1581. 98. and Folio.</item>
+                           </list>
+And this if we conſider the difficulty of the <hi>Original,</hi> and the Age wherein the Tranſlator lived, is both for the exactneſs of the Verſion, and the chaſtity of the Language, one of the moſt accurate and perfect Tran<g ref="char:EOLhyphen"/>ſlations, that ever were made into <hi>Engliſh.</hi> Theſe Notes on <hi>Tacicus</hi> were put into Latin by <hi>Iſaac Gruter,</hi> and Printed at <hi>Amſterdam</hi> 1649. in Twelves.</p>
+                     </item>
+                     <item>
+                        <p>A view of certain Military Matters, or Commen<g ref="char:EOLhyphen"/>taries concerning <hi>Roman</hi> Warfare. <hi>Lond.</hi> 1598. <hi>&amp;c.</hi> Folio. Put into Latin by <hi>Marq. Freherus,</hi> Printed at <hi>Heidelb.</hi> 1601. in Octavo, and at <hi>Amſterdam</hi> by <hi>Iſaac Gruter, An.</hi> 1649. in Twelves.</p>
+                     </item>
+                     <item>
+                        <p>
+                           <hi>Faſti Regum &amp; Epiſcoporum Angliae uſque ad Willi<g ref="char:EOLhyphen"/>elmum Seniorem.</hi> Theſe <hi>Faſti</hi> are at the end of the Writers which Sir <hi>Henry</hi> Publiſhed, Entituled, <hi>Rerum Anglicarum Scriptores poſt Bedam praecipui, &amp;c. viz. Gul. Malmesburienſis, Hen. Huntingdon, Rog. Hoveden,</hi> &amp;c. <hi>Lond.</hi> 1596. Folio. The beſt Copies of which Authors he Collected, Reviewed and Corrected. In his Epiſtle Dedicatory to Queen <hi>Elizabeth,</hi> ſet before them, ſpeaking of the Hiſtory of <hi>England,</hi> he com<g ref="char:EOLhyphen"/>plains ſo much, and ſo juſtly of the ancient Hiſto<g ref="char:EOLhyphen"/>rians of this Iſland, and of the hard fate of her glorious Anceſtors, who had no Hiſtory ſuitable to the greatneſs of their Atchievements, that all the Learned Men of that Age did earneſtly, upon theſe grounds, expect and wiſh for an Hiſtory of <hi>England</hi> from Sir <hi>Henry.</hi> And he is ſaid indeed to have at<g ref="char:EOLhyphen"/>tempted ſomewhat on that Subject; and in order to it to have made ſearches in the Records of the Tower. But whether through impatience, or diſencourage<g ref="char:EOLhyphen"/>ment or deſpair, he deſiſted from ſo tedious, and ſo difficult a labour, and imployed himſelf wholly</p>
+                     </item>
+                     <item>
+                        <p>in the Edition of S. <hi>Chryſoſtome</hi> in <hi>Greek.</hi> In order to this he carefully Collected the beſt Copies of this Author, from various parts of the World, and employed Learned Men to Tranſcribe, and make Annotations on them. Which being done, he Printed them at his own charge in a moſt beautiful Editi<g ref="char:EOLhyphen"/>on, bearing this Title, S. <hi>Johannis Chryſoſtomi opera Graecè octo voluminibus, Etonae in Coll. Regali,</hi> 1613. Folio. On ſeveral parts of which he put learned Notes, beſide what the profound <hi>John Boyſe, Andr. Downes, Thomas Allen,</hi> &amp;c. had done. The whole charge of which Edition, and the rewards given to certain Scholars beyond the Seas, employed for the ob<g ref="char:EOLhyphen"/>taining of the beſt exemplars of that Author amount<g ref="char:EOLhyphen"/>ed to more than 8000 <abbr>
+                              <hi>l.</hi>
+                           </abbr> But the Copy, as ſoon as it was finiſhed, coming into the hands of a learned <hi>French</hi> Jeſuit, <hi>Fronto Ducaeus</hi> of <hi>Bordeaux,</hi> he moſtly Tranſlated it thence (from the <hi>Greek</hi>) into Latin. Which being done, he Printed it in <hi>Greek</hi> and <hi>Latin,</hi> at <hi>Paris,</hi> in five Volumes, at the charge of the Biſhops and Clergy of <hi>France, An.</hi> 1621. The ſixth Vo<g ref="char:EOLhyphen"/>lume was put out by him in 1624, and the other Volumes (four in number) came out before at diffe<g ref="char:EOLhyphen"/>rent times at <hi>Heidelberg,</hi> by other hands, as it ſeems.</p>
+                     </item>
+                     <pb facs="tcp:37313:2"/>
+                     <item>
+                        <p>Sir <hi>Henry Savile</hi> alſo procured ſix Manuſcript Copies of <hi>Bradwardin</hi>'s Book <hi>De cauſa Dei.</hi> to be Com<g ref="char:EOLhyphen"/>pared and Corrected, to his great charge. Which being done, he Publiſhed a true Copy thereof under this Title, <hi>Thomae Bradwardini Archiep. olim Cantua<g ref="char:EOLhyphen"/>rienſis, De cauſa Dei, contra Pelagium, &amp; de virtute cau<g ref="char:EOLhyphen"/>ſarum ad ſuos Mertonenſes. lib.</hi> 3. <hi>Lond.</hi> 1618. Fol. before which Sir <hi>Henry</hi> put of his own writing, <hi>Vita Thomae Bradwardini Archiep. olim Cantuarienſis.</hi>
+                        </p>
+                     </item>
+                     <item>
+                        <p>He alſo wrote and was Author of, <hi>Praelectiones treſdecem in principium Elementorum Euclidis Oxoniae habitae, An.</hi> 1620. <hi>Oxon.</hi> 1621. <hi>qu.</hi> Some of which Lectures he Read when he was a junior Maſter, as I have before told you.</p>
+                     </item>
+                     <item>
+                        <p>
+                           <hi>Oratio coram Reg. Elizabet. Oxoniae habita, An.</hi> 1592. <hi>Oxon.</hi> 1658. <hi>qu.</hi> Publiſhed by Mr. (afterwards Dr.) <hi>Thomas Barlow</hi> of <hi>Queens</hi> Coll. from the Ori<g ref="char:EOLhyphen"/>ginal in the <hi>Bodleian</hi> Library, and alſo by Dr. <hi>John Lamphire</hi> in the ſecond Edition of <hi>Monarchia Britannica Oxon.</hi> 1681. Oct.</p>
+                     </item>
+                     <item>Tract of the Original of Mo<g ref="char:EOLhyphen"/>naſteries. MSS, in the <hi>Bodlei<g ref="char:EOLhyphen"/>an</hi> Library.</item>
+                     <item>Orations. MSS, in the <hi>Bodlei<g ref="char:EOLhyphen"/>an</hi> Library.</item>
+                     <item>Tract concerning the union of <hi>England</hi> and <hi>Scotland,</hi> at the command of King <hi>James</hi> I. MSS, in the <hi>Bodlei<g ref="char:EOLhyphen"/>an</hi> Library.</item>
+                  </list>
+                  <p>Concerning the laſt, <hi>John, Thornborough</hi> Biſhop of <hi>Briſtol</hi> did write a Book about the ſame time, as I ſhall hereafter tell you. Our Author <hi>Savile</hi> alſo did Publiſh <hi>Nazianzen</hi>'s <hi>Steleteuticks, Xenophon</hi>'s <hi>Inſtitution of</hi> Cyrus, <hi>&amp;c.</hi> and had many choice Exemplars in his Library, which were by others Publiſhed, as from <hi>Bibli<g ref="char:EOLhyphen"/>otheca Saviliana.</hi> He alſo Tranſlated into Elegant La<g ref="char:EOLhyphen"/>tin, King <hi>James</hi> I. his <hi>Apology for the Oath of Allegiance.</hi> Which flying in the ſame dreſs as far as <hi>Rome,</hi> was by the Pope and the Conclave ſent to <hi>Franc. Suarez</hi> at <hi>Salamanca,</hi> with a command to anſwer it. When he had perfected the work, which he calls, <hi>Defenſio Fidei Catholicae,</hi> &amp;c. <hi>cum reſponſione ad Apologiam pro juramento fidelitatis,</hi> &amp;c. it was tranſmitted to <hi>Rome</hi> for a view of the Inquiſitors; who blotted out what they pleaſed, and added whatſoever might advance the Pope's Power. Which matter <hi>Joh. Salkeld</hi> his Aſſiſtant when he wrote at <hi>Salamanca,</hi> did often profeſs when he came over to the Church of <hi>En<g ref="char:EOLhyphen"/>gland,</hi> and lived for ſome time in the Houſe of Dr. <hi>King</hi> Biſhop of <hi>London;</hi> that the good Old Man <hi>Suarez</hi> (whoſe Piety and Charity he magnified much) did not only diſavow, but deteſt it. However Print<g ref="char:EOLhyphen"/>ed it was, (at <hi>Colen</hi> I think, 1614) but ſo ſoon as any of the Copies came into <hi>England,</hi> one was burnt in deteſtation of the Fact by publick command. Sir <hi>Hen. Savile</hi> made ſeveral Manuſcript Notes in many of his Books in his Choice Library; particularly on <hi>Euſebius</hi> his <hi>Eccleſiaſtical Hiſtory,</hi> made uſe of by <hi>Hen. Valeſius</hi> in his Edition of that <hi>Hiſtory An.</hi> 1659. as he'll tell you more at large, if you'll conſult the Pre<g ref="char:EOLhyphen"/>face to that elaborate Work. He alſo made ſeveral Notes on thoſe Books, which he gave to the <hi>Mathe<g ref="char:EOLhyphen"/>matical</hi> Library in the School-Tower, and on others which I have ſeen. Divers of his Tracts of various Subjects in Manuſcript, were greedily obtain'd after his Death (ſometimes while he lived) by induſtrious and ingenious Scholars, which do now, or at leaſt did lately go from hand to hand. At length, after he had lived beyond the Age of Man, and had done many noble and generous Works for the benefit of Learning, he departed this Mortal Life in <hi>Eaton</hi> Coll. near <hi>Windſor,</hi> on the 19th of <hi>Febr.</hi> 1621/2. and was Buried in the Chappel there, near to the Body of his Son <hi>Henry,</hi> (who died 1604. Aged 8 Years) leaving behind him one only Daughter named <hi>Eli<g ref="char:EOLhyphen"/>zabeth</hi> (by his Wife <hi>Margaret,</hi> Daughter of <hi>George Dacres</hi> of <hi>Cheſhunt</hi> in <hi>Hertfordſhire</hi>) who was Mar<g ref="char:EOLhyphen"/>ried to Sir <hi>Joh. Sedley</hi> of <hi>Kent</hi> Baronet. Soon after the News of his Death being brought to <hi>Oxford,</hi> the Vice-Chancellor and Doctors ordered a Speech to be publickly ſpoken, in Memory of ſo Worthy a Be<g ref="char:EOLhyphen"/>nefactor and Scholar as Sir <hi>Henry</hi> had been; which being accordingly done by <hi>Thomas Goffe</hi> of <hi>Chriſt Church,</hi> the Speech was ſhortly after made publick, with many Copies of Verſes made by the beſt Poets of the Univerſity, added to it, with this Title <hi>Ulti<g ref="char:EOLhyphen"/>ma Linea Savilis Oxon.</hi> 1622. qu. Theſe things be<g ref="char:EOLhyphen"/>ing done, a black Marble Stone was laid over his Grave, on the South Side of the Communion Table, in the Chappel of <hi>Eaton</hi> Coll. and a moſt Sumptuous Honorary Monument Erected to his Me<g ref="char:EOLhyphen"/>mory, on the South Wall at the upper end of the Choir of <hi>Merton</hi> Coll. With this Inſcription,</p>
+                  <q>
+                     <p>M. S.<lb/>
+Henricus Savile Miles, Colle<g ref="char:EOLhyphen"/>gii fui Mertonenſis Cuſtos, Aetonenſis praepoſitus.<lb/>
+Exuvias Corporis fruſtra ſit qui hic quaerat,<lb/>
+Servat praenobile depoſitum Aetona,<lb/>
+Perennem Virtutum ac Benefactorum Memoriam<lb/>
+Quibus Collegium Utrumque, Academiam Imprimis<lb/>
+Oxonienſem Complexus eſt, ipſumque adeo<lb/>
+Mundum habet ſibs debendi Reum.<lb/>
+Affectus inſuper Pientiſſimae Uxoris Poſſidet iſte lapis.<lb/>
+B. M. P. Margareta Conjux obſequentiſſima; in hoc uno quod poſuit pie immorigera.<lb/>
+Obiit Anno Domini <hi>CI<gap reason="illegible" resp="#UOM" extent="1 letter">
+                              <desc>•</desc>
+                           </gap> DC XXI. Feb. XIX.</hi>
+                     </p>
+                  </q>
+                  <p>In the Provoſt-ſhip of <hi>Eaton</hi> Coll. ſucceeded <hi>Tho. Murr<gap reason="illegible" resp="#UOM" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>y</hi> a <hi>Scot,</hi> Tutor and Secretary to Prince <hi>Charles</hi> (afterwards King <hi>Charles</hi> I.) and in his Warden<g ref="char:EOLhyphen"/>ſhip of <hi>Merton</hi> Coll. ſucceeded <hi>Nath. Brent</hi> L L. D. afterwards a Knight, who minding Wealth, and the ſettling of a Family more than generous Actions, that College did nothing near flouriſh ſo well un<g ref="char:EOLhyphen"/>der him, as under the Government of Sir <hi>Henry.</hi>
+                  </p>
+               </div>
+               <div type="biographical_entry">
+                  <p>
+                     <hi>WIlliam Camden,</hi> Son of <hi>Sampſon Camden,</hi> a Na<g ref="char:EOLhyphen"/>tive of the City of <hi>Bichfield,</hi> Citizen and one of the Society of Painter-Stainers of <hi>London,</hi> by his Wife, deſcended<note n="(a)" place="bottom">See in <hi>Camd Britannia</hi> in <hi>Cumberland,</hi> in his diſ<g ref="char:EOLhyphen"/>courſe of <hi>Wirkington.</hi>
+                     </note> from the Ancient Family of the <hi>Cur<gap reason="illegible" resp="#UOM" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>ens</hi> of <hi>Cumberland,</hi> was Born in the <hi>Old Baily,</hi> ſituated partly in the Pariſh of St. <hi>Sepulcher,</hi> and partly in that of St. <hi>Martin</hi> near <hi>Ludgate</hi> in the ſaid City, on the ſecond day of <hi>May,</hi> 5 of King <hi>Edward</hi> VI. <hi>Dom.</hi> 1551. When this moſt Eminent Perſon was a Child, he received the firſt knowledge of Letters in <hi>Chriſt Church</hi> Hoſpital in <hi>London,</hi> then newly Founded for Blew-coated Children, where being fitted for Grammar Learning, he was ſent to the Free-School, Founded by Dr. <hi>Colet</hi> near to St. <hi>Paul</hi>'s Cathedral; about which time (1563) he being infected with the Plague, was ſent to <hi>Iſlington,</hi> where he remained for ſome time to the great preju<g ref="char:EOLhyphen"/>dice of his Learning. In 1566. (8. <hi>Elizab.</hi>) he was ſent to <hi>Oxford,</hi> and being placed in <hi>Magdalen</hi> Coll. in the condition of a Choriſter or Servitor, did per<g ref="char:EOLhyphen"/>fect himſelf in Grammar Learning in the Free-School adjoyning, then lately governed by Dr. <hi>Thom. Cooper,</hi> afterwards Biſhop of <hi>Lincoln.</hi> But miſſing (as 'tis ſaid) a Demies place of that College, though of great deſert, and partly grounded in Logick; he was remov'd to the Ancient Hoſtle called <hi>Broadgates,</hi> now <hi>Pembroke</hi> College, where he continued two Years and an half, under the tuition of a great encourager of Learning, called Dr. <hi>Thomas Thornton</hi> Canon of <hi>Chriſt Church,</hi> who finding in our Author, then Young, very great Signs of future Worth, took him to <hi>Chriſt Church,</hi> and gave him entertainment in his Lodgings, ſo long as he continued in the Univerſity. About that time he being a Candidate for a Fellowſhip in <hi>All-Souls</hi> College, loſt it for defending the Religion then Eſtabliſhed; as Dr. (afterwards Sir) <hi>Dan. Donn</hi> at that time Fellow, did ſeveral times teſtifie, and would often relate how our ſaid Author <hi>Camden</hi> was oppoſed by the Popiſh Party of that Houſe. In the Month of <hi>June</hi> 1570, he ſupplicated<note n="(b)" place="bottom">Regiſt. <g ref="char:V">Ʋ</g>niver. Oxon. <hi>K K.</hi> Fol. <hi>95.6.</hi>
+                     </note> the vene<g ref="char:EOLhyphen"/>rable Congregation of Regents; that whereas he
+<pb facs="tcp:37313:3"/>had ſpent four Years in the Study of Logick, he might be admitted Bachelaur of Arts; but what an<g ref="char:EOLhyphen"/>ſwer was made thereunto, or whether he was then admitted, it appears not. In 1571, he left <hi>Oxford,</hi> to the great reluctancy of thoſe who knew the pre<g ref="char:EOLhyphen"/>gnancy of his Parts; and whether he was afterwards favoured in his Studies, by Dr. <hi>Gabr. Goodman</hi> Dean of <hi>Weſtminſter,</hi> whom he acknowledgeth<note n="(c)" place="bottom">In his <hi>Britan.</hi> in <hi>Middleſex,</hi> in his diſcourſe of <hi>Weſtmin<g ref="char:EOLhyphen"/>ſter.</hi>
+                     </note> to have been his Patron, I cannot poſitively affirm. In 1573, he returned to <hi>Oxford,</hi> and ſupplicated a<g ref="char:EOLhyphen"/>gain in the beginning of <hi>March</hi> for the ſaid Degree; which though, as it ſeems then granted, and as I pre<g ref="char:EOLhyphen"/>ſume taken, yet he did not compleat it by <hi>Determina</hi>-in <hi>School-ſtreet.</hi> In 1575, he was made Second Ma<g ref="char:EOLhyphen"/>ſter of <hi>Weſtminſter</hi> School, upon the recommenda<g ref="char:EOLhyphen"/>tions of <hi>Godfrey,</hi> Nephew to <hi>Gabriel Goodman</hi> before mention'd (which <hi>Godfrey</hi> put him upon the Study of Antiquities, and bought and<note n="(d)" place="bottom">So <hi>Godf. Goodman</hi> Biſhop of <hi>Gloc.</hi> Son of the ſaid <hi>Godfrey</hi> in his Review of the Court of King <hi>James</hi> by Sr <hi>A. W.</hi> M<gap reason="illegible" resp="#UOM" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>. p. 19.</note> gave him Books for that purpoſe. In 1581, he contracted an entire Friend<g ref="char:EOLhyphen"/>ſhip with <hi>Barnab. Briſſon,</hi> the Learned Chief Juſtice of <hi>France,</hi> called uſually <hi>Varro Galliae.</hi> While he conti<g ref="char:EOLhyphen"/>nued in teaching at <hi>Weſtminſter,</hi> he was ſo ſucceſs<g ref="char:EOLhyphen"/>ful in that employment, that Dr. <hi>King</hi> Biſhop of <hi>London, Neyle</hi> Archbiſhop of <hi>York, Parry</hi> Biſhop of St. <hi>Aſaph, &amp;c.</hi> (to ſay nothing of Perſons employ<g ref="char:EOLhyphen"/>ed in thoſe times in eminent place abroad, and ma<g ref="char:EOLhyphen"/>ny of ſpecial note at home of all degrees) did ac<g ref="char:EOLhyphen"/>knowledge themſelves to have been his Scholars. He likewiſe (which is a Teſtimony of his ſincere love to the Church of <hi>England,</hi> which ſome in his time did doubt) brought there to Church divers Gentle<g ref="char:EOLhyphen"/>men of <hi>Ireland,</hi> as the <hi>Walſhes, Nugents, O Bayleys, &amp;c.</hi> and among others Popiſhly bred, and affected, the eldeſt Son of the Archbiſhop of <hi>Caſſiles, Peter Lombard</hi> a Merchant's Son of <hi>Waterford,</hi> a Youth of admirable docility (the ſame who was afterwards Titular Archbiſhop of <hi>Armagh,</hi> Primate of <hi>Ireland,</hi> Domeſtick Prelate and Aſſiſtant of the Pope, and Author of a Book Intit. <hi>De regno Hiberniae, Sanctorum in<g ref="char:EOLhyphen"/>ſula Commentarius Lov.</hi> 1632. <hi>Qu.</hi>) and others. In 1582, he took a Journey through <hi>Suffolk</hi> into <hi>York-ſhire,</hi> and returned through <hi>Lancaſhire</hi> in the Month of <hi>Apr.</hi> in order to the compleating of his <hi>Britannia;</hi> which he ſaith, he publiſhed the ſame Year, having with great induſtry at leiſure hours, and on Feſtival Days compoſed it. In 1588, <hi>Jun.</hi> 3. he by the Name and Title of <hi>William Camden Bachelor of Arts of Chriſt Church,</hi> ſupplicated the Venerable Convocation, that whereas he had ſpent 16 Years from the time he had took the Degree of Bachelaur, in the Study of Philo<g ref="char:EOLhyphen"/>ſophy and other liberal Arts, he might be diſpenſed with for the reading of three Solemn Lectures, and ſo be admitted to proceed in that Faculty; which ſup<g ref="char:EOLhyphen"/>plication was granted conditionally that he ſtand in the <hi>Act</hi> following; but whether he was admitted or ſtood, it doth not appear in the Regiſters. In the ſame Month and Year, he took a Journey (<hi>Oxford</hi> being in his way) to <hi>Ilfarcomb</hi> in <hi>Devonſhire,</hi> in or<g ref="char:EOLhyphen"/>der to obtain more knowledge in the Antiquities of that Country, and elſewhere, for the next Edition of his <hi>Britannia,</hi> and on the 6th of <hi>Feb.</hi> following, he was made Prebendary of <hi>Ilfarcomb</hi> in the Church of <hi>Salisbury,</hi> in the place of one <hi>Joh. Hotman;</hi> which Prebendſhip he kept to the time of his Death, and then <hi>Edward Davenant</hi> ſucceeded him. The charges of the ſaid Journey, and others that he took for that purpoſe, were defrayed<note n="(e)" place="bottom">Ibid.</note> by the aforeſaid Dr. <hi>Gab. Goodman.</hi> In 1590, he journied into <hi>Wales</hi> for the ſame purpoſe, in the company of <hi>Franc. Godwin</hi> of <hi>Chriſt Church,</hi> afterwards the Author of the <hi>Commen<g ref="char:EOLhyphen"/>tary of the Engliſh Biſhops;</hi> and in <hi>March</hi> 1592/3, he was made chief Maſter of <hi>Weſtminſter</hi> School. In 96, he took a Journey to <hi>Salisbury</hi> and <hi>Wells,</hi> for the obtaining of more knowledge in Antiquities, and returned through <hi>Oxford,</hi> where he viſited moſt, if not all of the Churches and Chappels, for the copying out of the ſeveral Monuments and Arms in them, which were reduced by him into a Book written with his own hand, by me ſeen and peruſed: In 97, he Publiſhed his <hi>Greek Grammar.</hi> On the 22th of <hi>Octob.</hi> the ſame Year, (after he had re<g ref="char:EOLhyphen"/>fuſed a Maſterſhip of the <hi>Requeſts,</hi> which was offer'd to him) he was Created Herald of Arms called <hi>Rich<g ref="char:EOLhyphen"/>mond,</hi> becauſe no Perſon can be King before he is Herald, and the next day he was Created <hi>Claren<g ref="char:EOLhyphen"/>ceaux</hi> King of Arms, in the place of <hi>Rich. Lee,</hi> who died on the 23 of <hi>Septemb.</hi> laſt paſt. This was done by the ſingular favor of Queen <hi>Elizabeth</hi> at the in<g ref="char:EOLhyphen"/>ceſſant ſupplication of his Patron Sir <hi>Fulk Grevil,</hi> af<g ref="char:EOLhyphen"/>terwards Lord <hi>Brook;</hi> both which had an eſpecial reſpect for him and his great Learning, in <hi>Engliſh</hi> and other Antiquities. In 1600, he took a Journey in Summer time to <hi>Carliſle,</hi> in the company of the Eminent Antiquary <hi>Robert Cotton</hi> 
+                     <abbr>Eſq</abbr> (after<g ref="char:EOLhyphen"/>wards Bt.) for the viewing of ſome Northern Anti<g ref="char:EOLhyphen"/>quities to be put into another Edition of his <hi>Britan<g ref="char:EOLhyphen"/>nia,</hi> and returned not till <hi>December</hi> following. In 1606, he ſent his firſt Letters to <hi>Jac. Aug. Thuanus</hi> the moſt noted Hiſtoriographer of <hi>France,</hi> from which time to the Death of <hi>Thuanus,</hi> which was in <hi>Apr.</hi> 1617, there was a conſtant commerce of Let<g ref="char:EOLhyphen"/>ters between them. Our Author <hi>Camden</hi> ſtiles<note n="(f)" place="bottom">
+                        <hi>In</hi> Annal. Reg. Jac. <hi>1.</hi> M S. ſub an. <hi>16 7.</hi>
+                     </note> him <hi>Galliae Lumen &amp; Hiſtoricorum noſtri ſeculi Prin<g ref="char:EOLhyphen"/>ceps,</hi> to whom he had communicated many mate<g ref="char:EOLhyphen"/>rial matters concerning <hi>Engliſh</hi> Affairs, which were afterwards digeſted into the ſeveral Books of Hiſto<g ref="char:EOLhyphen"/>ries, publiſhed by <hi>Thuanus.</hi> In 1608, he began to put in order, and digeſt his <hi>Annals of Queen Elizabeth.</hi> In the beginning of the year 1613. at which time he attended the Funeral of Sir <hi>Thomas Bodley</hi> at <hi>Oxon,</hi> he had the Degree of Maſter of Arts offer<g ref="char:EOLhyphen"/>ed to him, but refuſed, as it ſeems, to take it, and ſoon after was made the firſt Hiſtoriographer of <hi>Chelſey</hi> College by the Founder thereof. In 1619. <hi>July</hi> I. his name being then ſpread over the learned World, ſix Noble Men of <hi>Germany</hi> gave him a viſit at his Houſe in <hi>Weſtminſter,</hi> in whoſe <hi>Albums,</hi> he, at their deſire wrote his name, and a Latin Sentence as a teſtimony of his reſpect to them, which they took for a very great honor. In 1621. <hi>May</hi> 5. he, by his Deed then bearing date, Founded the Hiſtory Lecture of this Univerſity: which Deed being publiſhed in a Convocation of Regents, and Non-Regents, on the 17. of <hi>May</hi> 1622. he was in the year following declared a publick Be<g ref="char:EOLhyphen"/>nefactor of the Univerſity of <hi>Oxon.</hi> In 1622. <hi>June</hi> 7. He fell again into a moſt dangerous ſick<g ref="char:EOLhyphen"/>neſs, and on the 16. of <hi>Auguſt</hi> following, while he ſate muſing in his Chair, his Hands and Feet ſuddenly failed him: whereupon falling on the ground, he roſe again much diſtempered, and was never afterwards well till he dyed. He was a very good natured Man, very Mild and Charitable, and throughout the whole courſe of his life a good Chriſtian. He was an exact Critick and Philologiſt, accurately skilled in the Greek and Latin Tongues; and above all a moſt faithful Hiſtorian, and a moſt learned Antiquary. Theſe accompliſhments gained him the eſteem of the chiefeſt of the Nobility, and moſt Learned of this Nation; and alſo beyond the Seas, particularly of <hi>Ortelius, Lipſius, Douſa, Scali<g ref="char:EOLhyphen"/>ger, Thuanus, Gruterus, Piereſhius,</hi> and <hi>Iſaac Caſaubon,</hi> The Epiſtles of all whom, and of others of leſs note, I have ſeen in the <hi>Cottonian</hi> Library, and find that he was generally by them reckoned one of the greateſt Scholars of his time. At home, I am ſure, he was always much valued; and by his excellent Works, of which I ſhall now give a full and ex<g ref="char:EOLhyphen"/>act account, which deſerved that Reputation. His Works were theſe,</p>
+                  <list>
+                     <item>1. <hi>Britanniae ſive regnorum Angliae, Scotiae, Hiber<g ref="char:EOLhyphen"/>niae, &amp; inſularum adjacentium deſcriptio. Lond.</hi> 1582. 85. 87. in oct. <hi>Lond.</hi> 1590. 94. and 1600. in quar. <hi>Lond.</hi> 1607.</item>
+                  </list>
+               </div>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
